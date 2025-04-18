@@ -1,0 +1,35 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+
+# Firebase関連
+firebase.json
+.firebaserc
+
+# Firebase config (local only)
+firebase.js
+
+# 環境変数
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# catch-all（保険）
+.env.*   
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
